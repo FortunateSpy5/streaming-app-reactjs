@@ -22,6 +22,12 @@
       "description": "Description of another test",
       "userId": "108937132040160072695",
       "id": 4
+    },
+    {
+      "title": "Flappy Bird AI Using Genetic Algorithm",
+      "description": "This project uses a very basic Genetic Algorithm to make an AI that can play the game.",
+      "userId": "108937132040160072695",
+      "id": 6
     }
   ]
 }
