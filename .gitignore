@@ -104,3 +104,4 @@ dist
 .tern-port
 
 .idea
+streams/server/db.json
