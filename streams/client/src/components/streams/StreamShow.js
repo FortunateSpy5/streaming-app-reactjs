@@ -1,7 +1,7 @@
 import React from "react";
 import flv from 'flv.js';
 import {connect} from 'react-redux';
-import { fetchStream } from "../../actions";
+import {fetchStream} from "../../actions";
 
 class StreamShow extends React.Component {
     constructor(props) {
@@ -38,7 +38,7 @@ class StreamShow extends React.Component {
         if (!this.props.stream) {
             return <div>Loading ...</div>
         }
-        const { title, description } = this.props.stream
+        const {title, description} = this.props.stream
         return (
             <div>
                 <video ref={this.videoRef} style={{width: '100%'}} controls/>

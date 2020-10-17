@@ -9,7 +9,9 @@ const renderActions = (props) => {
     return (
         <React.Fragment>
             <button
-                onClick={() => {props.deleteStream(props.match.params.id)}}
+                onClick={() => {
+                    props.deleteStream(props.match.params.id)
+                }}
                 className="ui negative button"
             >
                 Delete
@@ -48,7 +50,9 @@ const StreamDelete = (props) => {
             title="Delete Stream"
             content={renderContent(props)}
             actions={renderActions(props)}
-            onDismiss = {() => {history.push('/')}}
+            onDismiss={() => {
+                history.push('/')
+            }}
         />
     );
 }

@@ -16,7 +16,7 @@ class StreamEdit extends React.Component {
     render() {
         if (!this.props.stream) {
             return <div>
-                <i className="ui large center aligned loading icon" />
+                <i className="ui large center aligned loading icon"/>
             </div>
         }
         return (
@@ -37,4 +37,4 @@ const mapStateToProps = (state, ownProps) => {
     };
 }
 
-export default connect(mapStateToProps, { fetchStream, editStream })(StreamEdit);
+export default connect(mapStateToProps, {fetchStream, editStream})(StreamEdit);
