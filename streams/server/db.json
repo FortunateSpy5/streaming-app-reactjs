@@ -6,22 +6,10 @@
       "id": 1
     },
     {
-      "title": "Test with id",
-      "description": "Test Description with user id",
-      "userId": null,
-      "id": 2
-    },
-    {
       "title": "Logged in test",
       "description": "Test Description logged in",
       "userId": "108937132040160072695",
       "id": 3
-    },
-    {
-      "title": "ANother Test",
-      "description": "Description of another test",
-      "userId": "108937132040160072695",
-      "id": 4
     },
     {
       "title": "Flappy Bird AI Using Genetic Algorithm",
